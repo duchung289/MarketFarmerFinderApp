@@ -3,7 +3,7 @@ from urllib import parse
 from kivy.network.urlrequest import UrlRequest
 from kivy.app import App
 
-class SearchPopupMeu(MDInputDialog):
+class SearchPopupMenu(MDInputDialog):
     title = "Search By Address"
     text_button_ok = "Search"
     def __init__(self):

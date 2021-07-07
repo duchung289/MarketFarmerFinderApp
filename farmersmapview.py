@@ -34,6 +34,8 @@ class FarmersMapView(MapView):
         lat, lon = market[21], market[20]
         marker = MarketMarker(lat=lat, lon=lon)
         marker.market_data = market
+        marker.source = "marker3.png"
+        # marker.size =(200,250)
         self.add_widget(marker)
 
         name = market[1]
